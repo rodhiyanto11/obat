@@ -12,6 +12,13 @@ export const navigationRoutes = {
       },
     },
     {
+      name: 'claim',
+      displayName: 'Claim',
+      meta: {
+        iconClass: 'vuestic-iconset-dashboard',
+      },
+    },
+    {
       name: 'statistics',
       displayName: 'menu.statistics',
       meta: {

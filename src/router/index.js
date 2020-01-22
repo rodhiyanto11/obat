@@ -86,6 +86,12 @@ export default new Router({
           default: true,
         },
         {
+          name: 'claim',
+          path: 'claim',
+          component: () => import('../components/claim/Claim.vue'),
+          default: true,
+        },
+        {
           name: 'statistics',
           path: 'statistics',
           component: EmptyParentComponent,
